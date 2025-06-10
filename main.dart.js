@@ -11376,7 +11376,7 @@ apK:function apK(){},
 qz:function qz(a,b){this.c=a
 this.a=b},
 a53:function a53(){var _=this
-_.e=_.d=$
+_.f=_.e=_.d=$
 _.c=_.a=null},
 aPG:function aPG(a){this.a=a},
 aPF:function aPF(a){this.a=a},
@@ -59480,12 +59480,13 @@ this.aD()
 try{this.gPF().l()}catch(s){}},
 df(){var s=this,r=null,q=s.e,p=A.b6d(A.b6n(q===$?s.e="https://platform.medoria.ru/privacy/":q))
 return A.ci(B.D,r,A.b3p(r,A.b3q(A.b3r(!0,!1)),p,new A.fi(),new A.aPE(),new A.aPF(s),new A.aPG(s)),B.e,B.e8,0,r,r,r,r,r,B.V)},
-G(a){var s,r,q=null,p=t.w,o=A.as(a,q,p).w.a.a>900?q:B.be,n=A.a([B.bf],t.p)
-if(this.a.c){s=A.as(a,q,p).w.a.a>900?100:10
-p=A.as(a,q,p).w.a.a>900?10:0
-r=A.z("\u041d\u0430\u0437\u0430\u0434",q,q,q,q,A.K(q,q,B.q,q,q,q,q,q,q,q,q,18,q,q,B.u,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)
-n.push(new A.aR(new A.ag(s,p,s,p),A.vL(A.b8(B.qK,B.q,q,24),q,r,new A.aPC(a),q),q))}n.push(A.an(this.df(),1))
-return A.dG(q,q,A.ci(B.D,q,A.eX(!0,A.a4(n,B.l,B.f,B.k,0),B.F,!0),B.e,q,0,q,q,q,q,q,B.V),q,o,q)}}
+G(a){var s,r,q=this,p=null,o=t.w,n=A.as(a,p,o).w.a.a>900?p:B.be,m=A.a([B.bf],t.p),l=q.f
+if(l===$){l=q.a.c
+q.f=l}if(l){s=A.as(a,p,o).w.a.a>900?100:10
+o=A.as(a,p,o).w.a.a>900?10:0
+r=A.z("\u041d\u0430\u0437\u0430\u0434",p,p,p,p,A.K(p,p,B.q,p,p,p,p,p,p,p,p,18,p,p,B.u,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)
+m.push(new A.aR(new A.ag(s,o,s,o),A.vL(A.b8(B.qK,B.q,p,24),p,r,new A.aPC(a),p),p))}m.push(A.an(q.df(),1))
+return A.dG(p,p,A.ci(B.D,p,A.eX(!0,A.a4(m,B.l,B.f,B.k,0),B.F,!0),B.e,p,0,p,p,p,p,p,B.V),p,n,p)}}
 A.aPG.prototype={
 $1(a){this.a.d=a},
 $S:189}
